@@ -1,4 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@400;500;700&family=Rubik:wght@300&display=swap");
+@font-face {
+  src: url(fonts/Rubik-Light.ttf);
+  font-family: 'Rubik-300';
+  font-weight: 300;
+}
+
+@font-face {
+  src: url(fonts/Rubik-Regular.ttf);
+  font-family: 'Rubik-400';
+  font-weight: 400;
+}
+@font-face {
+  src: url(fonts/Rubik-Medium.ttf);
+  font-family: 'Rubik-500';
+  font-weight: 500;
+}
+@font-face {
+  src: url(fonts/Rubik-Bold.ttf);
+  font-family: 'Rubik-700';
+  font-weight: 700;
+}
+
 
 * {
   padding: 0;
@@ -6,8 +27,16 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Rubik", serif;
+  font-family: 'Rubik-400';
+  font-weight: 400;
   
+}
+ul, li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 .header {
   background-image: url(IMAGES/logogog.png);
@@ -33,7 +62,7 @@ body {
 }
 
 .header .container .logo ul li a {
-  text-decoration: none;
+  
   color: black;
 }
 

@@ -1,0 +1,172 @@
+@font-face {
+  src: url(../fonts/Rubik-Light.ttf);
+  font-family: "Rubik-300";
+  font-weight: 300;
+}
+
+@font-face {
+  src: url(../fonts/Rubik-Regular.ttf);
+  font-family: "Rubik-400";
+  font-weight: 400;
+}
+@font-face {
+  src: url(../fonts/Rubik-Medium.ttf);
+  font-family: "Rubik-500";
+  font-weight: 500;
+}
+@font-face {
+  src: url(../fonts/Rubik-Bold.ttf);
+  font-family: "Rubik-700";
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik-400";
+  font-weight: 400;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+/* header */
+
+.header {
+  background: url(../IMAGES/header-bg.png) no-repeat center / cover;
+  height: 100vh;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 90px;
+}
+
+.header .container {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.header .navbar .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.header .navbar .menu .link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1d1d1b;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.header .navbar .menu .link:hover {
+  border-color: #1d1d1b;
+}
+
+.header .container .content {
+  margin-bottom: 50px;
+  width: 760px;
+}
+
+.header .content .title {
+  font-size: 60px;
+  line-height: 70px;
+  color: white;
+}
+
+.header .content .text {
+  color: white;
+  font-size: 20px;
+  padding: 30px 0 60px;
+}
+
+.header .content .btn {
+  padding: 20px 36px;
+  background: #27ae60;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #fff;
+  font-family: "Rubik-500";
+  cursor: pointer;
+  /* box-shadow: 0 0 10px #000; */
+}
+
+.header .content .btn:hover{
+  box-shadow: 0 0 10px #000;
+}
+
+
+/* about */
+
+.about{}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  gap: 14px;
+}
+.about .site-title {
+  font-size: 42px;
+  font-family: 'Rubik-500', sans-serif;
+  line-height: 50px;
+  color: #1d1d1b;
+  padding: 80px 0 0 0;
+}
+
+
+.about .card {
+  width: 273px;
+  border: 1px solid #a8a8a8;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about .card img{
+  width: 32px;
+  height: 32px;
+}
+
+.about .card span{
+  color: #27ae60;
+}
+
+.about .card p{
+  font-size: 14px;
+  font-family: 'Rubik-500', serif;
+  color: #393838;
+  line-height: 20px;
+}
+
